@@ -54,7 +54,7 @@ dustbin3.display();
 drawSprites();
 }
 function keyPressed(){
-	if(keyCode === 32){
+	if(keyCode === UP_ARROW){
 		Matter.Body.applyForce(paper1.body,paper1.body.position,{x:135,y:-130});
 	}
 }
